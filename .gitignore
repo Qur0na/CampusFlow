@@ -1,0 +1,21 @@
+# зависимости
+node_modules/
+
+# сборка
+dist/
+
+# логи
+npm-debug.log*
+*.log
+
+# окружение и секреты
+.env
+.env.*
+!.env.example
+
+# системные и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
