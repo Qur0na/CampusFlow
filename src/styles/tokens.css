@@ -1,0 +1,35 @@
+/* Дизайн-токены, снятые с макета CampusFlow. */
+:root {
+  --color-primary: #3b5ccc;
+  --color-primary-hover: #2f4aa8;
+  --color-primary-soft: #eef2ff;
+  --color-primary-disabled: #8fa2e5;
+  --color-text: #172033;
+  --color-text-muted: #667085;
+  --color-border: #d9e2ec;
+  --color-surface: #fff;
+  --color-background: #f4f7fb;
+
+  /* #12a594 из макета даёт контраст ~3:1 на белом, поэтому для текста используется тёмный оттенок. */
+  --color-success: #0b7a6f;
+  --color-success-accent: #12a594;
+  --color-success-soft: #ecfdf3;
+  --color-error: #d14343;
+  --color-focus: #3b5ccc;
+  --font-family-base: system-ui, 'Segoe UI', 'Roboto', 'DejaVu Sans', sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.75rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 999px;
+  --shadow-card: 0 4px 12px rgb(23 32 51 / 8%);
+  --container-width: 72rem;
+}
